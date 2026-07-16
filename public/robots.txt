@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /portal
+Disallow: /checkout
+Disallow: /login
+Disallow: /api/
+Allow: /api/public/
+
+# Specific crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Respect crawl delay
+Request-rate: 1 request per 1 second
+
+# Sitemap location
+Sitemap: https://riveting-group.com.ng/sitemap.xml

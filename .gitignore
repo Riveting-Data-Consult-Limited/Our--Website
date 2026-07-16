@@ -4,3 +4,17 @@ dist/
 npm-debug.log*
 yarn-debug.log*
 pnpm-debug.log*
+
+# Environment variables
+.env.local
+.env*.local
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# Build outputs
+build.log
